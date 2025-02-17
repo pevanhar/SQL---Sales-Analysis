@@ -1,0 +1,71 @@
+This project focuses on analyzing sales data using SQL, with the key goals of data cleaning, transformation, and discovering possible business insights.
+The dataset includes customer transactions, returned orders, and customer segmentation data. Which allowed me to generate queries to answer useful questions.
+
+I performed:
+- Data Cleaning – Fixed column names, reformatted dates, and handled missing data
+- Data Transformation – Converted text fields, aggregated data, and categorized customers
+- SQL Queries – Used JOINS, CTEs, CASE statements, Window Functions, and Aggregations
+- Business Insights – Identified sales trends, return rates, and customer behavior
+
+
+
+
+
+This project utilizes three main tables:
+
+-Orders Table (orders)
+Contains details on all transactions.
+Key Columns:
+Order_ID – Unique identifier for each order
+Order_Date – The date of the purchase
+Customer_ID, Customer_Name – Customer details
+Product_ID, Product_Name, Category – Product information
+Sales, Profit, Quantity, Discount – Transaction details
+
+-Returned Orders Table (returned)
+Tracks returned orders.
+Key Columns:
+Order_ID – Matches with orders to identify returned purchases
+Returned – Flag to indicate if the order was returned
+
+-Customer Segmentation Table (people)
+Stores customer-related data.
+Key Columns:
+Person – Matches Customer_Name in orders
+Region – Customer location
+
+
+
+
+
+Query descriptions:
+
+-Total Revenue and Profit
+This query provides an overview of total sales and profitability. Understanding overall revenue and profit helps businesses assess financial health and track performance over time.
+
+-Sales by Month
+This analysis identifies seasonal trends in sales performance. Businesses can use this data to plan inventory, marketing campaigns, and discount strategies based on peak months.
+
+-Top 5 Best-Selling Products
+Identifying the highest-selling products allows businesses to focus on high-demand items, optimize stock levels, and refine marketing strategies to drive even more sales.
+
+-Bottom 10 Least Profitable Products
+This highlights low-profit items, which may indicate high production costs, pricing inefficiencies, or high return rates. Businesses may consider repricing or discontinuing these products.
+
+-Most Profitable Customer Segments
+Understanding which customer segments contribute the most revenue and profit helps businesses tailor marketing efforts and loyalty programs to high-value customers.
+
+-Sales and Profit by Region
+This shows how different regions contribute to overall sales and profit, helping businesses decide where to expand, improve logistics, or adjust pricing strategies.
+
+-Top 30 Products with the Highest Return Rate
+A high return rate could indicate product defects, misleading product descriptions, or customer dissatisfaction. Companies should investigate these products and improve quality control.
+
+-Customers Who Made the Most Purchases & Spent the Most
+Identifying repeat customers and high spenders allows businesses to reward loyalty, offer exclusive deals, and personalize marketing to drive retention.
+
+-Return Rate by Customer Segment
+Understanding which customer segments return products the most helps businesses adjust sales strategies, revise return policies, and improve product recommendations.
+
+-Customer Loyalty Analysis
+Categorizing customers into New, Emerging, Established, and High-Value groups provides insights into customer retention, engagement, and lifetime value, allowing businesses to optimize retention efforts.
