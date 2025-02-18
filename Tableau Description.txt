@@ -1,0 +1,30 @@
+TABLEAU PROJECT DESCRIPTION:
+
+
+OVERVIEW: This project focuses on analyzing sales data using Tableau to gain insights into sales performance, customer behavior, and return trends. By leveraging Tableau’s data visualization tools, I created an interactive dashboard that helps interpret key business metrics in a clear and engaging way. This project demonstrates my ability to work with data, build effective visualizations, and structure insights for decision-making.
+
+
+DATA PREPERATION AND CONNECTION: To start, I connected an Excel file containing sales data to Tableau and structured the data for proper analysis. The dataset included information on orders, customers, products, and returns. I ensured the tables were joined correctly so the relationships between sales, customers, and returns were accurately reflected in the analysis.
+
+
+INTERACTIVITY AND FILTERS: To enhance user interaction, I added:
+-Filters for Months - Allows users to view specific months’ performance.
+-Interactivity Between Sheets - Clicking on a state filters the other charts to show relevant data for that location.
+
+
+WORKSHEETS: 
+1. Sales by State (Map Visualization)
+-Shows: Geographic sales distribution across the U.S.
+-Insights: Identifies top-performing states and low-revenue areas for targeted strategies.
+
+2. Return Volume by Category (Bar Chart)
+-Shows: The number of returned orders by product category.
+-Insights: Office Supplies have the highest returns, indicating potential product or expectation issues.
+
+3. Customer Segmentation (Bar Chart)
+-Shows: Top customers ranked by total sales.
+-Insights: A small group of customers generates significant revenue, highlighting retention importance.
+
+4. Sales by Month (Line Chart with Trend Line)
+-Shows: Monthly sales trends over time.
+-Insights: Sales fluctuate but trend upward, useful for forecasting and planning.
